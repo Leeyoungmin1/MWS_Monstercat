@@ -91,6 +91,7 @@ a {
   inset: 0 0 0 auto;
   max-width: -moz-fit-content;
   max-width: fit-content;
+  height: calc(100vh - 200px);
   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateX(800%);
 }
